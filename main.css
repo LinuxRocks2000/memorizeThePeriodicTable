@@ -1,0 +1,73 @@
+#multiple {
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: pink;
+    padding: 50px;
+    border-radius: 50px;
+}
+
+#datapoint-type, #key {
+    font-weight: bold;
+    border: 1px solid red;
+}
+
+#clock {
+    background-color: black;
+    font-family: monospace;
+    color: white;
+    padding: 2px;
+    text-align: center;
+}
+
+#score {
+    background-color: black;
+    padding: 10px;
+    font-size: 2em;
+    font-family: monospace;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    display: inline-block;
+}
+
+#right, #wrong, #bad {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    display: none;
+    font-style: italic;
+    padding: min(25vw, 25vh);
+}
+
+#right {
+    background-color:darkred;
+    color: gold;
+}
+
+#wrong {
+    background-color: green;
+    color: coral;
+}
+
+#bad {
+    background-color: black;
+    color: chartreuse;
+}
+
+li > button {
+    border: none;
+    background-color: aqua;
+    text-align: center;
+    padding: 20px;
+}
+
+li > button:hover {
+    background-color: blue;
+}
